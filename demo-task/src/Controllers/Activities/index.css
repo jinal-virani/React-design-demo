@@ -1,0 +1,62 @@
+.activitie_container {
+  background: #f5f6f8;
+  padding: 20px 20px 10px 20px;
+  border-radius: 6px;
+}
+
+.activiti_header {
+  display: flex;
+  justify-content: space-between;
+  vertical-align: middle;
+  align-items: center;
+}
+
+#view_btn {
+  background-color: #0c611a;
+  border: 1px solid #0c611a;
+  border-radius: 4px;
+}
+
+.activiti_list {
+  display: flex;
+  justify-content: left;
+  vertical-align: middle;
+  align-items: center;
+  gap: 20px;
+  position: relative;
+}
+
+.activiti_img {
+  border: 1px solid#DEE8FF;
+  border-radius: 50%;
+  background: #dee8ff;
+}
+
+.activiti_text {
+  font-size: 14px;
+  font-weight: 600;
+  text-align: start;
+}
+
+.activiti_account_type {
+  color: #f8991f;
+}
+
+.activiti_time {
+  color: #c7c7c7;
+  font-size: 12px;
+}
+
+.activiti_list:after {
+  content: " ";
+  width: 1px;
+  height: 33px;
+  background: #00000014;
+  position: absolute;
+  left: 17px;
+  bottom: -18px;
+}
+
+.activiti_list:last-child::after {
+  display: none;
+}

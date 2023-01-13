@@ -1,0 +1,63 @@
+.billing_title_container {
+  background: #f5f6f8;
+  padding: 20px 20px 10px 20px;
+  border-radius: 6px;
+}
+
+.title_container_wrapper {
+  text-align: left;
+  padding: 0px;
+}
+
+.billing_content {
+  display: flex;
+  justify-content: space-between;
+  vertical-align: middle;
+  align-items: center;
+}
+
+.form_list {
+  padding: 10px;
+}
+
+.check_label {
+  padding-left: 0.4em;
+  font-size: 12px;
+}
+
+.filed_container_wrapper {
+  text-align: start;
+  font-size: 12px;
+  font-weight: 600;
+  padding: 5px 0;
+}
+
+.input_field input {
+  width: 100%;
+  box-shadow: inset 0px 0px 2px #00000012;
+  border: 1px solid #f1f1f1;
+  border-radius: 4px;
+  height: 35px;
+  padding: 10px;
+}
+
+.input_field select {
+  width: 100%;
+  box-shadow: inset 0px 0px 2px #00000012;
+  border: 1px solid #f1f1f1;
+  border-radius: 4px;
+  height: 35px;
+  padding: 5px;
+}
+
+.btn_edit {
+  text-align: end;
+  padding: 10px;
+  width: 100%;
+}
+
+#edit_details {
+  background-color: #232e3e;
+  border: 1px solid #000;
+  text-align: end;
+}

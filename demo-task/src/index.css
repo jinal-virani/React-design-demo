@@ -1,0 +1,11 @@
+body {
+  margin: 0;
+  font: Work Sans, Regular;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+}
+
+code {
+  font-family: normal normal normal Work Sans, monospace;
+}

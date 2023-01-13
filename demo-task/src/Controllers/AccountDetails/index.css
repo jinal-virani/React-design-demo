@@ -1,0 +1,47 @@
+.profile_main {
+  margin: 7px;
+  margin-top: 20px;
+}
+
+.profile_name {
+  text-align: start;
+  font-size: 28px;
+  font-weight: bold;
+  font-family: sans-serif;
+  white-space: nowrap;
+}
+
+.msg {
+  text-align: center;
+  background: #cef2da;
+  padding: 4px;
+  font-weight: bold;
+  color: #0c611a;
+  font-size: 18px;
+  width: 350px;
+  border-radius: 2px;
+}
+.success_msg {
+  display: flex;
+  justify-content: center;
+}
+.view_btn {
+  text-align: end;
+}
+.view_btn button {
+  background: #232e3e;
+  border-radius: 4px;
+  width: 152px;
+}
+
+.account_main_list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.account_content_list {
+  font-size: 25px;
+  cursor: pointer;
+}

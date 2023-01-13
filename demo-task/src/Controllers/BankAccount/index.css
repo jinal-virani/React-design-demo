@@ -1,0 +1,84 @@
+.title_container {
+  background: #f5f6f8;
+  padding: 20px 20px 60px 20px;
+  border-radius: 6px;
+}
+
+.bank_account_content {
+  height: 370px;
+}
+
+.title_bank_container {
+  background: #fff;
+  padding: 20px 20px 60px 20px;
+  border-radius: 6px;
+}
+
+h2 {
+  text-align: left;
+  font-size: 18px;
+}
+
+.bank_wrapper {
+  display: flex;
+  justify-content: space-between;
+  vertical-align: middle;
+  align-items: center;
+  gap: 10px;
+  background: #fff;
+  border-radius: 5px;
+}
+
+.bank_wrapper_content {
+  background: #f5f6f8;
+  border-radius: 5px;
+}
+
+.bank_main_container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.bank_main_img_wrapper {
+  display: flex;
+  align-items: center;
+  margin-left: 10px;
+}
+
+.bank_info_details {
+  align-items: center;
+  margin-right: 25px;
+}
+
+.bank_main_edit_wrapper {
+  display: flex;
+  align-items: center;
+  margin-right: 10px;
+}
+
+.bank_title_wrapper {
+  display: flex;
+  justify-content: center;
+  vertical-align: middle;
+  align-items: center;
+  gap: 10px;
+  background: #fff;
+  border-radius: 5px;
+}
+
+.account_number {
+  margin-top: 10px;
+  font-size: 16px;
+  margin-bottom: 0px;
+}
+
+.expr_number {
+  text-align: initial;
+  color: #c7c7c7;
+  font-size: 14px;
+}
+
+#edit_btn {
+  background: #0c611a;
+  border: 1px solid #0c611a;
+}

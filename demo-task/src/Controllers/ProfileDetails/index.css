@@ -190,3 +190,17 @@
     padding: 8px 1px;
   }
 }
+
+@media (max-width: 1023px) {
+  .profile_main {
+    display: block;
+    width: 98%;
+  }
+}
+
+@media (max-width: 1023px) {
+  .family_main {
+    display: block;
+    width: 100%;
+  }
+}

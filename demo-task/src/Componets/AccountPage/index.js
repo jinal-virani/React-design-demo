@@ -20,8 +20,8 @@ function HomePage() {
   }, []);
 
   const isMobile = width <= 768 && width >= 320;
-  const isTablet = width <= 1024 && width > 767;
-  const isBigScreen = width <= 1920 && width > 1023;
+  const isTablet = width < 1024 && width > 767;
+  const isBigScreen = width > 1023;
 
   return (
     <div className={isMobile ? "main_content" : ""}>

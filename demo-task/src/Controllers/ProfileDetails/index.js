@@ -68,14 +68,14 @@ const ProfileDetails = ({ mobileDevice, tableDevice, leptopDevice }) => {
       {tableDevice && (
         <>
           <div className="row details_main">
-            <div className="col-8">
+            <div className="col-8 profile_main">
               <ProfileList
                 mobileDeviceProps={mobileDevice}
                 tableDeviceProps={tableDevice}
                 leptopDeviceProps={leptopDevice}
               />
             </div>
-            <div className="col-4">
+            <div className="col-4 family_main">
               <FamilyList
                 mobileDeviceProps={mobileDevice}
                 tableDeviceProps={tableDevice}

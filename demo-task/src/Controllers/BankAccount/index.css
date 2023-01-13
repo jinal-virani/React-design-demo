@@ -21,12 +21,12 @@ h2 {
 
 .bank_wrapper {
   display: flex;
-  justify-content: space-between;
+  /* justify-content: space-between; */
   vertical-align: middle;
   align-items: center;
-  gap: 10px;
   background: #fff;
   border-radius: 5px;
+  margin-right: 10px;
 }
 
 .bank_wrapper_content {
@@ -81,4 +81,14 @@ h2 {
 #edit_btn {
   background: #0c611a;
   border: 1px solid #0c611a;
+}
+
+@media (max-width: 1399px) {
+  .bank_wrap {
+    display: block !important;
+  }
+  .bank_wrap .bank_wrapper {
+    margin-top: 10px;
+    width: 80%;
+  }
 }

@@ -21,30 +21,25 @@ const BankAccounts = ({
                 : "title_container"
             }
           >
-            <div className="">
+            <div>
               <h2>Bank Account</h2>
-
-              <div className="row">
-                <div className={tableDeviceProps ? "col-md-8 mb-2" : "col-5"}>
-                  <div className="bank_wrapper">
-                    <div className="bank_main_img_wrapper">
-                      <img src={masterCard} width={57} height={57} />
-                    </div>
-                    <div className="bank_info_details">
-                      <p className="account_number">**** **** **** 5967</p>
-                      <p className="expr_number">Expires 09/27</p>
-                    </div>
+              <div className="d-flex bank_wrap">
+                <div className="bank_wrapper">
+                  <div className="bank_main_img_wrapper">
+                    <img src={masterCard} width={57} height={57} />
+                  </div>
+                  <div className="bank_info_details ms-3">
+                    <p className="account_number">**** **** **** 5967</p>
+                    <p className="expr_number">Expires 09/27</p>
                   </div>
                 </div>
-                <div className={tableDeviceProps ? "col-md-8" : "col-5"}>
-                  <div className="bank_wrapper">
-                    <div className="bank_main_img_wrapper">
-                      <img src={masterCard} width={57} height={57} />
-                    </div>
-                    <div className="bank_info_details">
-                      <p className="account_number">**** **** **** 5967</p>
-                      <p className="expr_number">Expires 09/27</p>
-                    </div>
+                <div className="bank_wrapper">
+                  <div className="bank_main_img_wrapper">
+                    <img src={masterCard} width={57} height={57} />
+                  </div>
+                  <div className="bank_info_details ms-3">
+                    <p className="account_number">**** **** **** 5967</p>
+                    <p className="expr_number">Expires 09/27</p>
                   </div>
                 </div>
               </div>

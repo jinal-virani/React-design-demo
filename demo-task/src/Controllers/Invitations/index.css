@@ -137,8 +137,12 @@
   border: 1px solid #f5f6f8;
   color: #000 !important;
 }
-
-@media (max-width: 400px) {
+/* @media (max-width: 1199px) {
+  .invitation_header {
+    display: block;
+  }
+} */
+@media (max-width: 1199px) {
   .invitation_header {
     flex-direction: column;
   }

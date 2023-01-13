@@ -157,7 +157,7 @@ function ProfileList({
               </div>
             </div>
             <div className="row">
-              <div className="col-md-6  form_data_list_wrapper">
+              <div className="col-md-4 p-2 form_data_list_wrapper">
                 <div className="form_field_Contanier_wrapper">
                   <lable className="lable">Phone:</lable>
                   <div>
@@ -169,7 +169,7 @@ function ProfileList({
                   </div>
                 </div>
               </div>
-              <div className="col-md-6 form_data_list_wrapper">
+              <div className="col-md-4 p-2 form_data_list_wrapper">
                 <div className="form_field_Contanier_wrapper">
                   <lable className="lable">DOB:</lable>
                   <div>
